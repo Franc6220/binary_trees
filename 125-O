@@ -1,3 +1,5 @@
-O(log n)
-O(log n)
-O(log n)
+Inserting the value n: In an AVL tree, inserting a value involves traversing the tree to find the appropriate location for insertion, which takes O(log n) time due to the balanced nature of AVL trees. After insertion, rebalancing may be required, but this is also done in O(log n) time, resulting in an average time complexity of O(log n).
+
+Removing the node with the value n: Similarly, removing a node in an AVL tree involves traversing the tree to find the node to be removed, which takes O(log n) time due to the balanced nature of AVL trees. After removal, rebalancing may be required, but this is also done in O(log n) time, resulting in an average time complexity of O(log n).
+
+Searching for a node in an AVL tree of size n: Searching for a node in an AVL tree also involves traversing the tree, but due to its balanced nature, the height of the tree is O(log n), resulting in an average time complexity of O(log n).
